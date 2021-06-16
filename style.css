@@ -1,0 +1,40 @@
+.header{
+    color:blue;
+    background:#e4d81e
+}
+.parent{
+  background: rgb(10, 194, 200);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    border:10px solid  blueviolet;
+    margin: 40px;
+    padding: 30px;
+   position: relative;
+}
+.p1{
+    color:rgb(223, 235, 59) ;
+    justify-content:space-between;
+     text-align: center;
+     border: 3px solid greenyellow;
+     margin: 40px;
+     padding: 50px;
+}
+a:link{
+    color:chocolate;
+}
+a:visited{
+    color:salmon;
+}
+.p1:hover img{
+    opacity: 0.5;
+}
+.p1:hover p{
+    transform: scale(1,2);
+}
+.p1:hover h1{
+    transform: scale(1,2);
+}
+
